@@ -1,0 +1,2 @@
+# rewardhack-probe — zero external dependencies
+# Pure Python 3.10+ standard library only.

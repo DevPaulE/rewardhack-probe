@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "rewardhack-probe"
+version = "0.1.0"
+description = "Detect when an agent tampers with its own scoring mechanism"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["harness-engineering", "reward-hacking", "agent-safety", "ai-fund"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Source = "https://github.com/DevPaulE/rewardhack-probe"
